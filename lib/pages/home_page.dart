@@ -5,17 +5,17 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    int age = 22;
-    final String name = "Abhay";
+    int age = 20;
+    const String name = "Abhay";
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("App Name "),
+        title: const Text("App Name "),
       ),
       body: Center(
         child: Text("Hello Flutter!! $age $name"),
       ),
-      drawer: Drawer(),
+      drawer: const Drawer(),
     );
   }
 }
